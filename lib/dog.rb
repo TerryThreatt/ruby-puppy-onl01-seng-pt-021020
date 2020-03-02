@@ -23,7 +23,7 @@ class Dog
     @@all.clear
   end 
   
-  def save(new_dog)
+  def save()
     @@all << new_dog
   end 
 end 
